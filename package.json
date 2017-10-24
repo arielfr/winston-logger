@@ -1,0 +1,38 @@
+{
+  "name": "winston-this",
+  "version": "1.0.0",
+  "description": "Winston Logger Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "./node_modules/.bin/webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielfr/winston-logger.git"
+  },
+  "keywords": [
+    "winston",
+    "logger",
+    "helper"
+  ],
+  "author": "Ariel Rey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arielfr/winston-logger/issues"
+  },
+  "homepage": "https://github.com/arielfr/winston-logger#readme",
+  "dependencies": {
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
