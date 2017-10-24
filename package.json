@@ -1,8 +1,8 @@
 {
   "name": "winston-this",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Winston Logger Module",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
