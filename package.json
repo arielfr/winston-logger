@@ -1,6 +1,6 @@
 {
   "name": "winston-this",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Winston Logger Module",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arielfr/winston-logger.git"
+    "url": "git+https://github.com/arielfr/winston-this.git"
   },
   "keywords": [
     "winston",
@@ -20,9 +20,9 @@
   "author": "Ariel Rey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arielfr/winston-logger/issues"
+    "url": "https://github.com/arielfr/winston-this/issues"
   },
-  "homepage": "https://github.com/arielfr/winston-logger#readme",
+  "homepage": "https://github.com/arielfr/winston-this#readme",
   "dependencies": {
     "winston": "^2.4.0"
   },
